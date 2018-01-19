@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FE7E4A95200A5A9000992BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7E4A94200A5A9000992BBE /* AppDelegate.swift */; };
-		FE7E4A97200A5A9000992BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7E4A96200A5A9000992BBE /* ViewController.swift */; };
 		FE7E4A9A200A5A9000992BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7E4A98200A5A9000992BBE /* Main.storyboard */; };
 		FE7E4A9C200A5A9000992BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7E4A9B200A5A9000992BBE /* Assets.xcassets */; };
 		FE7E4A9F200A5A9000992BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7E4A9D200A5A9000992BBE /* LaunchScreen.storyboard */; };
+		FE7E4AA7200E833A00992BBE /* GuessingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7E4AA6200E833A00992BBE /* GuessingGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE7E4A91200A5A9000992BBE /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE7E4A94200A5A9000992BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE7E4A96200A5A9000992BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE7E4A99200A5A9000992BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE7E4A9B200A5A9000992BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE7E4A9E200A5A9000992BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE7E4AA0200A5A9000992BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7E4AA6200E833A00992BBE /* GuessingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessingGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				FE7E4A94200A5A9000992BBE /* AppDelegate.swift */,
-				FE7E4A96200A5A9000992BBE /* ViewController.swift */,
 				FE7E4A98200A5A9000992BBE /* Main.storyboard */,
 				FE7E4A9B200A5A9000992BBE /* Assets.xcassets */,
 				FE7E4A9D200A5A9000992BBE /* LaunchScreen.storyboard */,
 				FE7E4AA0200A5A9000992BBE /* Info.plist */,
+				FE7E4AA6200E833A00992BBE /* GuessingGame.swift */,
 			);
 			path = GuessingGame;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7E4A97200A5A9000992BBE /* ViewController.swift in Sources */,
+				FE7E4AA7200E833A00992BBE /* GuessingGame.swift in Sources */,
 				FE7E4A95200A5A9000992BBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
